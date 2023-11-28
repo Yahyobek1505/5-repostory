@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  outline: none;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -46,7 +47,7 @@ header {
   padding: 8px 16px;
   border-bottom: 1px solid #47474c;
 }
-select {
+.sidebar-select {
   background: inherit;
   outline: none;
   width: 260px;
@@ -58,7 +59,7 @@ select {
   margin: 5px 20px;
   cursor: pointer;
 }
-option {
+.sidebar-select option {
   background: #25262d;
   outline: none;
   width: 260px;
@@ -174,26 +175,107 @@ ul li:hover a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 16px;
   justify-content: space-between;
 }
-.btn  {
+.btn {
   padding: 8px 16px;
   border-radius: 4px;
   background: #7335b0;
   border: none;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   background: #4c2dfe;
 }
-.btn:active{
+.btn:active {
   background: #ba03fc;
 }
-.btn a{
+.btn a {
   color: #fff;
   text-align: center;
   font-size: 15px;
   font-family: inherit;
   font-weight: 400;
   line-height: 22px; /* 146.667% */
+}
+.table-header {
+  width: 100%;
+  height: 50px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px 1px #ececec;
+}
+.table-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+}
+.table-nav a {
+  color: #25262d;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.table-nav a:hover {
+  border-bottom: 2px solid #7840b0;
+}
+.table-select {
+  width: 260px;
+  height: 40px;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #e8e8e8;
+}
+.table-select {
+  color: #25262d;
+  font-size: 14px;
+  cursor: pointer;
+  text-indent: 12px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #ececec;
+  border-radius: 5px;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.table-select option {
+  color: #25262d;
+  cursor: pointer;
+  text-indent: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.search {
+  width: 436px;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  text-indent: 12px;
+  box-shadow: 1px 1px 1px 1px #ececec;
+}
+.search::placeholder {
+  color: rgba(37, 38, 45, 0.25);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.table-filter {
+  text-indent: 12px;
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #e8e8e8;
+  box-shadow: 1px 1px 1px 1px #ececec;
+}
+.deys {
+  width: 160px;
+  box-shadow: 1px 1px 1px 1px #ececec;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  text-indent: 12px;
 }

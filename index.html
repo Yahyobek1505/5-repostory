@@ -17,81 +17,131 @@
         <div class="sidebar-header">
           <header>
             <div class="logo">
-             <a href="#"> <img src="./img/smart.svg" alt="logo" /></a>
+              <a href="#"> <img src="./img/smart.svg" alt="logo" /></a>
               <h2 class="header-title"><a href="#">ТОО «Smart»</a></h2>
             </div>
             <div class="setting">
-             <a href="#"> <img src="./img/settings.svg" alt="" /></a>
+              <a href="#"> <img src="./img/settings.svg" alt="" /></a>
             </div>
           </header>
         </div>
         <div class="sidebar-navbar">
-        <div class="nav-top">
-          <form action="#">
-            <select name="select" id="">
-              <option value="КОМПАНИЯ">КОМПАНИЯ</option>
-              <option value="КОМПАНИЯ">КОМПАНИЯ</option>
-              <option value="КОМПАНИЯ">КОМПАНИЯ</option>
-              <option value="КОМПАНИЯ">КОМПАНИЯ</option>
-            </select>
-          </form>
-          <ul>
-            <li><img src="./img/kompany.svg" alt="kompany">
-              <span><a href="#">Компания</a></span>
-            </li>
-            <li><img src="./img/schot.svg" alt="kompany">
-              <span><a href="#">Счета</a></span>
-            </li>
-            <li><img src="./img/location.svg" alt="kompany">
-              <span><a href="#">Торговые точки</a></span>
-            </li>
-            <li><img src="./img/user.svg" alt="kompany">
-              <span><a href="#">Сотрудники</a></span>
-            </li>
-            <li><img src="./img/left-right.svg" alt="kompany">
-              <span><a href="#">Интеграция</a></span>
-            </li>
-            <li><img src="./img/hisobot.svg" alt="kompany">
-              <span><a href="#">Отчёты и финансы</a></span>
-            </li>    
-          </ul>
-          <form action="#">
-            <select name="select" id="">
-              <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
-              <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
-              <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
-              <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
-            </select>
-          </form>
-              <ul class="organizator">
-                <li>
-                  <img src="./img/tizimlash.svg" alt="">
-                  <span><a href="#">Организации</a></span>
-                </li>
-                <li>
-                  <img src="./img/kafolat.svg" alt="">
-                  <span><a href="#">Доверенные счета</a></span>
-                </li>
-                <li>
-                  <img src="./img/usluga.svg" alt="">
-                  <span><a href="#">Услуги</a></span>
-                </li>
-              </ul>
+          <div class="nav-top">
+            <form action="#" >
+              <select name="select" id="" class="sidebar-select">
+                <option value="КОМПАНИЯ">КОМПАНИЯ</option>
+                <option value="КОМПАНИЯ">КОМПАНИЯ</option>
+                <option value="КОМПАНИЯ">КОМПАНИЯ</option>
+                <option value="КОМПАНИЯ">КОМПАНИЯ</option>
+              </select>
+            </form>
+            <ul>
+              <li>
+                <img src="./img/kompany.svg" alt="kompany" />
+                <span><a href="#">Компания</a></span>
+              </li>
+              <li>
+                <img src="./img/schot.svg" alt="kompany" />
+                <span><a href="#">Счета</a></span>
+              </li>
+              <li>
+                <img src="./img/location.svg" alt="kompany" />
+                <span><a href="#">Торговые точки</a></span>
+              </li>
+              <li>
+                <img src="./img/user.svg" alt="kompany" />
+                <span><a href="#">Сотрудники</a></span>
+              </li>
+              <li>
+                <img src="./img/left-right.svg" alt="kompany" />
+                <span><a href="#">Интеграция</a></span>
+              </li>
+              <li>
+                <img src="./img/hisobot.svg" alt="kompany" />
+                <span><a href="#">Отчёты и финансы</a></span>
+              </li>
+            </ul>
+            <form action="#">
+              <select class="sidebar-select" name="select" id="">
+                <option  value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
+                <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
+                <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
+                <option value="КОМПАНИЯ">ДОВЕРИТЕЛЬНОЕ УПРАВЛЕНИЕ</option>
+              </select>
+            </form>
+            <ul class="organizator">
+              <li>
+                <img src="./img/tizimlash.svg" alt="" />
+                <span><a href="#">Организации</a></span>
+              </li>
+              <li>
+                <img src="./img/kafolat.svg" alt="" />
+                <span><a href="#">Доверенные счета</a></span>
+              </li>
+              <li>
+                <img src="./img/usluga.svg" alt="" />
+                <span><a href="#">Услуги</a></span>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-foot">
+            <img src="./img/fot.svg" alt="" />
+            <label for="chek">
+              <input type="checkbox" id="check" />
+              <span><a href="#">Свернуть панель</a></span>
+            </label>
+          </div>
         </div>
-        <div class="nav-foot">
-          <img src="./img/fot.svg" alt="">
-          <label for="chek">
-          <input type="checkbox" id="check">
-            <span><a href="#">Свернуть панель</a></span>
-          </label>
-        </div>
-      </div>
       </aside>
       <div class="main">
         <div class="main-top">
           <h1 class="main-title">Все счета</h1>
           <button class="btn"><a href="#">Выставить счёт</a></button>
         </div>
+        <div class="main-table">
+          <div class="table-header">
+            <div class="table-nav">
+              <a href="#">Выставленные</a>
+              <a href="#">К оплате</a>
+              <a href="#">История</a>
+            </div>
+          </div>
+          <form action="#">
+            <select class="table-select" name="#" id="1">
+              <option value="#">Все торговые точки и операции</option>
+              <option value="#">Все торговые точки и операции</option>
+              <option value="#">Все торговые точки и операции</option>
+            </select>
+            <input class="search"
+              type="search"
+              name="search"
+              id=""
+              placeholder="Поиск по номеру счета" />
+            <select name="#" id="2" class="table-filter">
+              <option value="">Фильтры</option>
+              <option value="">Фильтры</option>
+              <option value="">Фильтры</option>
+              <option value="">Фильтры</option>
+            </select>
+            <select name="#" id="2" class="deys">
+              <option value="">Действия</option>
+              <option value="">Действия</option>
+              <option value="">Действия</option>
+            </select>
+          </form>
+          <table>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td><p>Номер счета</p></td>
+              <td><p>Время и дата</p><span><img src="./img/Vector.svg" alt=""></span></td>
+              <td><p>Торговая точка / Оперция</p></td>
+              <td><p>Сумма</p><span><img src="./img/Vector.svg" alt=""></span></td>
+              <td><p>Получено</p></td>
+              <td><p>Статус</p><span><img src="./img/Vector.svg" alt=""></span></td>
+            </tr>
+          </table>
+        </div>
+
       </div>
     </div>
   </body>
