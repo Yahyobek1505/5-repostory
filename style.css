@@ -222,7 +222,7 @@ ul li:hover a {
   border-bottom: 2px solid #7840b0;
 }
 .table-select {
-  width: 260px;
+  width: 255px;
   height: 40px;
   fill: #fff;
   stroke-width: 1px;
@@ -248,7 +248,7 @@ ul li:hover a {
   line-height: 16px; /* 114.286% */
 }
 .search {
-  width: 436px;
+  width: 430px;
   border-radius: 5px;
   height: 40px;
   border: none;
